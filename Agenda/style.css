@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.oculto {
+    display: none;
+}
+
+button {
+    padding: 12px 24px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+}
+
+.btn-excluir:hover {
+    background-color: #bd2130;
+}
+
+.btn-consultar {
+    background-color: #28a745;
+}
+
+.btn-consultar:hover {
+    background-color: #218838;
+}
+
+.btn-alterar {
+    background-color: #b66b09f4;
+}
+
+.btn-alterar:hover {
+    background-color: #886621;
+}
+
+
+#info {
+    margin-top: 20px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}

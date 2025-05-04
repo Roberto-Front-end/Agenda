@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contatos</h1>
+        <div>
+            <button id="Adicionar">Adicionar contato</button>
+            <button id="Excluir" class="btn-excluir">Excluir contato</button>
+            <button id="Consultar" class="btn-consultar">Consultar</button>
+            <button id="Alterar" class="btn-alterar">Alterar contato</button>
+            <div id="contato-container" class="oculto">
+                    <label for="nomeInput">Nome:</label>
+                    <input type="text" id="nomeInput" placeholder="Digite o nome">
+                    <div>
+                        <label for="numeroInput">Numero:</label>
+                        <input type="number" id="numeroInput" placeholder="DDD+Numero">
+                    </div>
+                    <button id="buttonAdicionar" class="oculto">Adicionar</button>
+                    <button id="buttonExcluir" class="oculto">Excluir</button>
+                    <button id="buttonConsultar" class="oculto">Consultar</button>
+                    <button id="buttonAlterar" class="oculto">Alterar</button>
+            </div>
+        </div>
+
+
+        <div id="info"></div>
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
