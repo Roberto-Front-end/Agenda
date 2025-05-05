@@ -51,7 +51,7 @@ function adicionarPessoa() {
 
     // Se já existir, exibe um alerta e interrompe a função
     if (pessoaExistente) {
-        alert("Este contato já está cadastrado!");
+        alert("Já existe um contato com este nome!");
         return;
     }
 
