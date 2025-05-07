@@ -100,7 +100,7 @@ function excluirPessoa() {
 
 function alterarPessoa() {
     let nomeConsultado = nomeInput.value;
-    let pessoaIndice = pessoas.findIndex(pessoa => pessoa.nome === nomeConsultado);
+    let pessoaIndice = pessoas.findIndex(pessoa => pessoa.nome.toLowerCase() === nomeConsultado.toLowerCase());
     if (pessoaIndice >= 0) {
         pessoas[pessoaIndice].numero = numeroInput.value;
         console.log(pessoaIndice);
